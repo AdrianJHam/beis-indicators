@@ -1,4 +1,4 @@
-# This fork seeks to allow clone by Windows users - the base code incldues an aux directory which is a reserved keyword in windows.  The crude approach currently being experimented with is to move all the files to an aux-not directory.  After that there is likely to be some additional work to grep the now pullable code and identify any references to the aux folder and replace with aux-not.  Or may investigate cloning the directory in docker whihc will haev an internal linux structure and hence be okay with the aux directory.
+This fork seeks to allow clone by Windows users - the base code incldues an aux directory which is a reserved keyword in windows.  The crude approach currently being experimented with is to move all the files to an aux-not directory.  After that there is likely to be some additional work to grep the now pullable code and identify any references to the aux folder and replace with aux-not.  Or may investigate cloning the directory in docker whihc will haev an internal linux structure and hence be okay with the aux directory.
 
 # BEIS Indicators
 
